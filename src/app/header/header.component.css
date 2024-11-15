@@ -1,0 +1,15 @@
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+header {
+  background: linear-gradient(to bottom, rgb(240, 170, 130), rgb(187, 123, 203));
+}
+
+.text {
+  color: rgb(107, 9, 131);
+  font-size: 1.25em;
+}

@@ -1,0 +1,13 @@
+<div class="about-wrapper">
+
+  <div class="about-main-content">
+    <p>Welcome to our Memory Game, a fun and challenging way to exercise your brain! The game features a variety of levels designed to test your memory and concentration. Flip cards to find matching pairs and improve your cognitive skills while enjoying the colorful, engaging design. Whether you're a beginner or an expert, the Memory Game is perfect for anyone looking to boost their memory and have fun in the process!</p>
+  </div>
+
+  <div class="card-about"
+    *ngFor="let card of cards"  [ngStyle]="getRandomStyles()">
+    {{ card.value }}
+  </div>
+
+</div>
+

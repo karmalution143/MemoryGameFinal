@@ -1,0 +1,18 @@
+
+<div class="main-content container">
+  
+  <form class="name" (submit)="submitForm($event)">
+    <input name="username" type="text" [(ngModel)]="username" placeholder="Enter your name">
+  </form>
+  
+  <div class="game-option">
+    <h2 class="text-purple">Choose a level and get ready to activate your mind!</h2>
+
+    <div class="btn-layout">
+      <button class="btn custom-btn-text" [routerLink]="['/easygame']" [queryParams]="{ username: username }" routerLinkActive="active">Easy</button>
+      <button class="btn custom-btn-text" [routerLink]="['/hardgame']" [queryParams]="{ username: username }" routerLinkActive="active">Hard</button>
+    </div>
+
+  </div>
+</div>
+

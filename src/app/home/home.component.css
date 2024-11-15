@@ -1,0 +1,70 @@
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-bottom: 200px;
+}
+
+button {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.text-purple {
+  color: rgb(107, 9, 131);
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.name input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 20px;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  background: linear-gradient(to bottom, rgb(187, 123, 203), #f7b684);
+  transition: all 0.3s ease;
+}
+
+.name input:focus {
+  border-color: #6c5ce7;
+  box-shadow: 0 0 5px rgba(108, 92, 231, 0.5);
+  outline: none;
+}
+
+.name input::placeholder {
+  color: #f1f0f0;
+  font-style: italic;
+}
+
+.name input:hover {
+  border-color: #6c5ce7;
+}
+
+.name {
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.game-option {
+  padding: 100px;
+}
+
+.btn-layout {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+.custom-btn-text {
+  color: #7a249c;
+}
+
+.custom-btn-text:hover {
+  color: #eed8b5;
+}
+
+.btn {
+  border-radius: 20%;
+  background: linear-gradient(to bottom, rgb(187, 123, 203), #f7b684);
+}
